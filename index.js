@@ -1,37 +1,57 @@
-let myName = "Elaman";
+let lightSwitchOn = false;
+let windowIsOpen = false;
 
-console.log(myName);
-console.log(myName.length);
-console.log(myName.toLowerCase());
-console.log(myName.toUpperCase());
+let example1 = 5 > 10;
+let example2 = 5 < 10;
+let example3 = 5 >= 10;
+let exaxmpl4 = 5 <= 10;
+let example5 = 5 === 10;
+let example6 = 5 !== 10;
 
-let pi = 3.141593;
+if (lightSwitchOn) {
+  console.log("Switch is on");
+}
+else {
+  console.log("Switch is off");
+}
 
-console.log(pi);
-console.log(pi.toFixed(2));
-console.log(pi.toFixed(0));
 
-let example1 = 2 + 2;
-let example2 = 2 - 2;
-let example3 = 2 * 2;
-let example4 = 2 / 2;
+let a = 15;
+let b = 5;
+if (a === b) {
+  console.log("A equals B");
+}
+else {
+  console.log("A is not equal to B");
+}
 
-let example5 = 2 ** 4; // степень (квардат)
-let example6 = 81 ** (1/3); // кубический корень
 
-let example7 = 5 % 2; //остаток
+// 25 студентов (students) пришли на курс програмирования. Помесятся ли они в комнату с 20 местами (capacity).
+let students = 25;
+let capacity = 20;
+if (students <= capacity) {
+  console.log("Студенты поместятся");
+}
+else {
+  console.log("Студенты не поместятся");
+}
 
-let example8 = "Hello " + 'World' + `!`;
+console.log("Столица КР?");
+let answer = "бишкек";
+if (answer === "Бишкек" || answer === "бишкек") {
+  console.log("Правильно.");
+}
+else {
+  console.log("Не правильно.");
+}
 
-let example9 = 4 + 10 + 12;
-let example10 = 1 + 5 * 3;
-let example11 = 15 * (1 - 1);
+let login = "ElonMusk";
+let password = "I'M the best";
+if (login === "ElonMusk" && password === "Im the best") {
+  console.log("Correct");
+}
+else {
+  console.log("Incorrect");
+}
 
-let example12 = 5 + '3';
-let example13 = '5' + 3;
-let example14 = '5' * 3; // 15
-let example15 = 'a' * 3; // NaN
-
-let example16 = -15;
-let example17 = +'15';
-
+// В автобусе 20 пассажирских мест. Поместится ли группа из 23 туристов в автобусе?
